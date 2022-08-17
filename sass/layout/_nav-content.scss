@@ -12,7 +12,7 @@
 }
 
 .navigation__list {
-  flex-basis: calc((100 - 2 * 30) / 3);
+  flex-basis: calc ((100 - 2 * 30) / 3);
 }
 
 .navigation__link {
@@ -26,25 +26,25 @@
   }
 }
 
-.nav-content-titre {
+.navigation-container__title {
   @include font(18px, 700, 36px);
   letter-spacing: 0.06em;
   padding-left: 24px;
 }
 
-.nav-content-text {
+.navigation-container__text {
   @include font(16px, 400, 30px);
   color: var(--text-color);
   margin-top: 4px;
   padding-left: 24px;
 }
 
-.navigation__wrapper {
+.wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.overlay {
+.wrapper__overlay {
   position: absolute;
   left: 0;
   top: 0;

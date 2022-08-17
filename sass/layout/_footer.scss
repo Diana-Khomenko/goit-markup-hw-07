@@ -11,30 +11,30 @@ footer {
   margin-top: 20px;
 }
 
-.mail-item {
+.address__item--mail {
   margin-top: 9px;
 }
 
-.phone-item {
+.address__item--phone {
   margin-top: 9px;
 }
 
-.accent-second {
+.logo--accent-second {
   color: #ffffff;
 }
 
-.direction-item {
+.address__item {
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   background: #2f303a;
 }
 
-.direction-link-light {
+.address__link-light {
   color: var(--second-title);
 }
 
-.direction-link-dark {
+.address__link-dark {
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--transition-duration) var(--transition-function);
 
@@ -44,7 +44,7 @@ footer {
   }
 }
 
-.properties-title-text-white {
+.social-list__title {
   @include font(14px, 700, 16.41px);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -57,18 +57,18 @@ footer {
   align-items: baseline;
 }
 
-.container-riht {
+.container-footer--riht {
   margin-left: 70px;
 }
 
-.social-list-footer {
+.social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
 }
 
-.social-link-footer {
+.social-list__link {
   @extend %align;
   width: 44px;
   height: 44px;
@@ -84,6 +84,6 @@ footer {
   }
 }
 
-.social-footer-icom {
+.social-list__icom {
   fill: currentColor;
 }

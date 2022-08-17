@@ -1,8 +1,8 @@
-.btn-nav-item {
+.btn-nav__item {
   @extend %align;
 }
 
-.btn-nav-list:not(:last-child) {
+.btn-nav__list:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -38,7 +38,7 @@ button {
   }
 }
 
-.button-primery {
+.button--primery {
   background-color: var(--accent-color);
   color: var(--second-title);
 }
