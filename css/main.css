@@ -29,6 +29,12 @@
   overflow: hidden;
 }
 
+.btn-nav-item, .social-link-footer, .clients-link, .social-list-link, .properties-cards, .modal-form-chec-desk, .modal-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   font-family: var(--primary-font);
   font-size: 14px;
@@ -92,9 +98,9 @@ address {
 }
 
 .modal-btm {
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  font-weight: 700;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--second-title);
   background-color: #2196f3;
@@ -144,9 +150,6 @@ address {
   position: absolute;
   top: 10px;
   right: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -184,9 +187,9 @@ address {
 
 .modal-text {
   display: block;
-  font-weight: 700;
   font-size: 20px;
-  line-height: 1.17;
+  font-weight: 700;
+  line-height: 1.172;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-color);
@@ -270,10 +273,7 @@ address {
 }
 
 .modal-form-chec-desk {
-  display: flex;
-  justify-content: center;
   justify-items: center;
-  align-items: center;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -287,9 +287,9 @@ address {
 
 .modal-form-submit {
   align-self: center;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  font-weight: 700;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--second-title);
   background-color: var(--accent-color);
@@ -428,9 +428,9 @@ address {
 }
 
 .main-title {
-  font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  font-weight: 900;
+  line-height: 1.3636363636;
   text-align: center;
   align-items: center;
   letter-spacing: 0.06em;
@@ -464,7 +464,8 @@ address {
 
 .properties-title-text {
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 1.1721428571;
   text-transform: uppercase;
   color: var(--title-color);
   margin-top: 30px;
@@ -481,9 +482,6 @@ address {
 }
 
 .properties-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -539,7 +537,8 @@ address {
 
 .title {
   font-size: 36px;
-  line-height: 1.17;
+  font-weight: 700;
+  line-height: 1.1719444444;
   text-align: center;
 }
 
@@ -549,16 +548,17 @@ address {
 }
 
 .name-title {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  font-weight: 500;
+  line-height: 1.171875;
   text-align: center;
   color: var(--title-color);
 }
 
 .name-text {
   font-size: 16px;
-  line-height: 1.19;
+  font-weight: 400;
+  line-height: 1.171875;
   text-align: center;
   color: var(--text-color);
   margin-top: 10px;
@@ -572,9 +572,6 @@ address {
 }
 
 .social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -598,9 +595,6 @@ address {
 }
 
 .clients-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 170px;
   height: 92px;
   border: 1px solid;
@@ -663,9 +657,9 @@ footer {
 }
 
 .properties-title-text-white {
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 1.1721428571;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title);
@@ -689,9 +683,6 @@ footer {
 }
 
 .social-link-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -754,9 +745,9 @@ footer {
 }
 
 .footer-form-submit {
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  font-weight: 700;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--second-title);
   background-color: var(--accent-color);
@@ -778,12 +769,6 @@ footer {
   margin-left: 10px;
 }
 
-.btn-nav-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .btn-nav-list:not(:last-child) {
   margin-right: 8px;
 }
@@ -793,9 +778,9 @@ button {
 }
 
 .button {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  font-weight: 500;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
@@ -846,6 +831,7 @@ button {
 
 .nav-content-titre {
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   padding-left: 24px;
@@ -853,7 +839,8 @@ button {
 
 .nav-content-text {
   font-size: 16px;
-  line-height: 1.88;
+  font-weight: 400;
+  line-height: 1.875;
   color: var(--text-color);
   margin-top: 4px;
   padding-left: 24px;
@@ -874,7 +861,8 @@ button {
   transform: translate(0, 100%);
   transition: transform var(--transition-duration) var(--transition-function);
   font-size: 18px;
-  line-height: 1.56;
+  font-weight: 400;
+  line-height: 1.5555555556;
   letter-spacing: 0.03em;
   color: var(--second-title);
   padding-top: 63px;

@@ -1,48 +1,44 @@
 .title-properties {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    padding-top: 0px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  padding-top: 0px;
 }
 
 .properties {
-    background-color: var(--properties-color);
+  background-color: var(--properties-color);
 }
 
 .properties-item {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-
 .properties-list:not(:last-child) {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .properties-title-text {
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--title-color);
-    margin-top: 30px;
+  @include font(14px, 700, 16.41px);
+  text-transform: uppercase;
+  color: var(--title-color);
+  margin-top: 30px;
 }
 
 .properties-text {
-    line-height: 1.71;
-    color: var(--text-color);
+  line-height: 1.71;
+  color: var(--text-color);
 
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .propertires-list {
-    align-items: center;
+  align-items: center;
 }
 
 .properties-cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    background-color: #f5f4fa;
-    border-radius: 4px;
+  @extend %align;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }

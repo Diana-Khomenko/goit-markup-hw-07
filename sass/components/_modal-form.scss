@@ -20,9 +20,7 @@
 
 .modal-text {
   display: block;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.17;
+  @include font(20px, 700, 23.44px);
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-color);
@@ -113,10 +111,8 @@
 }
 
 .modal-form-chec-desk {
-  display: flex;
-  justify-content: center;
+  @extend %align;
   justify-items: center;
-  align-items: center;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -131,9 +127,7 @@
 
 .modal-form-submit {
   align-self: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 700, 30px);
   letter-spacing: 0.06em;
   color: var(--second-title);
   background-color: var(--accent-color);

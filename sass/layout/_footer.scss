@@ -45,9 +45,7 @@ footer {
 }
 
 .properties-title-text-white {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 700, 16.41px);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title);
@@ -71,9 +69,7 @@ footer {
 }
 
 .social-link-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align;
   width: 44px;
   height: 44px;
   border-radius: 50%;

@@ -17,8 +17,7 @@
 }
 
 .title {
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(36px, 700, 42.19px);
   text-align: center;
 }
 
@@ -28,16 +27,14 @@
 }
 
 .name-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(16px, 500, 18.75px);
   text-align: center;
   color: var(--title-color);
 }
 
 .name-text {
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(16px, 400, 18.75px);
+
   text-align: center;
   color: var(--text-color);
 
@@ -52,9 +49,7 @@
 }
 
 .social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align;
   width: 44px;
   height: 44px;
   border-radius: 50%;
