@@ -1,21 +1,21 @@
-.nav-content-container {
+.navigation-container {
   padding-top: 20px;
   border: 1px solid #eeeeee;
   padding-bottom: 20px;
 }
 
-.nav-content-item {
+.navigation {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 50px;
 }
 
-.nav-containt-list {
+.navigation__list {
   flex-basis: calc((100 - 2 * 30) / 3);
 }
 
-.nav-link {
+.navigation__link {
   display: block;
   transition: box-shadow var(--transition-duration) var(--transition-function);
 
@@ -39,7 +39,7 @@
   padding-left: 24px;
 }
 
-.nav-list-img-wrapper {
+.navigation__wrapper {
   position: relative;
   overflow: hidden;
 }
@@ -63,8 +63,8 @@
   padding-right: 24px;
   background-color: rgba(33, 150, 243, 0.9);
 
-  .nav-link:hover &,
-  .nav-link:focus & {
+  .navigation__link:hover &,
+  .navigation__link:focus & {
     transform: translate(0, 0);
   }
 }
